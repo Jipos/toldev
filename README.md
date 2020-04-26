@@ -29,29 +29,8 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`tol hello [FILE]`](#tol-hello-file)
 * [`tol help [COMMAND]`](#tol-help-command)
 * [`tol patch:init [ISSUENUMBER]`](#tol-patchinit-file)
-
-## `tol hello [FILE]`
-
-describe the command here
-
-```
-USAGE
-  $ tol hello [FILE]
-
-OPTIONS
-  -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
-
-EXAMPLE
-  $ tol hello
-  hello world from ./src/hello.ts!
-```
-
-_See code: [src/commands/hello.ts](https://github.com/Jipos/toldev/blob/v0.0.0/src/commands/hello.ts)_
 
 ## `tol help [COMMAND]`
 
