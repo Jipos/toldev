@@ -16,11 +16,11 @@ The Toledo CLI to upgrade your development experience
 # Usage
 <!-- usage -->
 ```sh-session
-$ npm install -g @jipos/toldev
+$ npm install -g @jipo/toldev
 $ tol COMMAND
 running command...
 $ tol (-v|--version|version)
-@jipos/toldev/0.0.0 darwin-x64 node-v10.15.2
+@jipo/toldev/0.0.3 darwin-x64 node-v10.15.2
 $ tol --help [COMMAND]
 USAGE
   $ tol COMMAND
@@ -106,7 +106,7 @@ OPTIONS
   -h, --help  show CLI help
 ```
 
-_See code: [src/commands/patch/init.ts](https://github.com/Jipos/toldev/blob/v0.0.0/src/commands/patch/init.ts)_
+_See code: [src/commands/patch/init.ts](https://github.com/Jipos/toldev/blob/v0.0.3/src/commands/patch/init.ts)_
 
 ## `tol update [CHANNEL]`
 
