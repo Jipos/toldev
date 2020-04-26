@@ -20,7 +20,7 @@ $ npm install -g @jipo/toldev
 $ tol COMMAND
 running command...
 $ tol (-v|--version|version)
-@jipo/toldev/0.0.3 darwin-x64 node-v10.15.2
+@jipo/toldev/0.0.6 darwin-x64 node-v10.15.2
 $ tol --help [COMMAND]
 USAGE
   $ tol COMMAND
@@ -33,7 +33,6 @@ USAGE
 * [`tol commands`](#tol-commands)
 * [`tol help [COMMAND]`](#tol-help-command)
 * [`tol patch:init ISSUENUMBER`](#tol-patchinit-issuenumber)
-* [`tol update [CHANNEL]`](#tol-update-channel)
 
 ## `tol autocomplete [SHELL]`
 
@@ -106,16 +105,5 @@ OPTIONS
   -h, --help  show CLI help
 ```
 
-_See code: [src/commands/patch/init.ts](https://github.com/Jipos/toldev/blob/v0.0.3/src/commands/patch/init.ts)_
-
-## `tol update [CHANNEL]`
-
-update the tol CLI
-
-```
-USAGE
-  $ tol update [CHANNEL]
-```
-
-_See code: [@oclif/plugin-update](https://github.com/oclif/plugin-update/blob/v1.3.9/src/commands/update.ts)_
+_See code: [src/commands/patch/init.ts](https://github.com/Jipos/toldev/blob/v0.0.6/src/commands/patch/init.ts)_
 <!-- commandsstop -->

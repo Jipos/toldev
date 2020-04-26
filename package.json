@@ -1,7 +1,7 @@
 {
   "name": "@jipo/toldev",
   "description": "The Toledo CLI to upgrade your development experience",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "author": "Kevin Rogiers @Jipos",
   "bin": {
     "tol": "./bin/run"
@@ -56,8 +56,7 @@
       "@oclif/plugin-not-found",
       "@oclif/plugin-commands",
       "@oclif/plugin-warn-if-update-available",
-      "@oclif/plugin-autocomplete",
-      "@oclif/plugin-update"
+      "@oclif/plugin-autocomplete"
     ],
     "warn-if-update-available": {
       "timeoutInDays": 7
