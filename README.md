@@ -31,6 +31,7 @@ USAGE
 <!-- commands -->
 * [`tol hello [FILE]`](#tol-hello-file)
 * [`tol help [COMMAND]`](#tol-help-command)
+* [`tol patch:init [ISSUENUMBER]`](#tol-patchinit-file)
 
 ## `tol hello [FILE]`
 
@@ -68,4 +69,21 @@ OPTIONS
 ```
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v2.2.3/src/commands/help.ts)_
+
+## `tol patch:init [FILE]`
+
+Initializes a new patch in the toledo-patches repo.
+
+```
+USAGE
+  $ tol patch:init [ISSUENUMBER]
+
+ARGUMENTS
+  ISSUENUMBER     The number of the issue which describes the patch
+
+OPTIONS
+  -h, --help       show CLI help
+```
+
+_See code: [src/commands/patch/init.ts](https://github.com/Jipos/toldev/blob/v0.0.0/src/commands/patch/init.ts)_
 <!-- commandsstop -->
